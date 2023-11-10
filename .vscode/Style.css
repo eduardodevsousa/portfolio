@@ -6,7 +6,7 @@
 
 :root {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile(2).jpg);
+  --bg-url: url(./assets/bg-mobile-2.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.5);
 }
@@ -24,7 +24,7 @@ body {
 
 body * {
   font-family: "Inter", sans-serif;
-  color: var (--text-color);
+  color: var(--text-color);
   text-align: center;
 }
 
@@ -92,7 +92,7 @@ ul li a:hover {
   padding: 24px 0;
   font-size: 20px;
 }
-  
+
 #social-links a {
   display: flex;
   align-items: center;
@@ -101,13 +101,12 @@ ul li a:hover {
   transition: background 0.2s;
 }
 
-#social-links a:hover{
-  background: rgba( 255, 255, 255, 0.2);
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
 }
 
 footer {
   padding: 24px 0;
   text-align: center;
-
 }
