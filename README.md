@@ -10,9 +10,8 @@ programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
-
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+  <img alt="License" src="https://github-production-user-asset-6210df.s3.amazonaws.com/125318467/302425204-87f4bb28-c0d1-488c-9be9-cbdb0bc8dafb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240205%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240205T205213Z&X-Amz-Expires=300&X-Amz-Signature=27d0657e83064325a18b63a5c82afda0d1d77f71430fc8ad551a80fff8855073&X-Amz-SignedHeaders=host&actor_id=125318467&key_id=0&repo_id=717206710">
 </p>
 
 <br>
