@@ -5,8 +5,8 @@
 }
 
 :root {
-  --text-color: black;
-  --bg-url: url(./assets/bg-mobile-2.jpg);
+  --text-color: white;
+  --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.5);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -16,12 +16,12 @@
 
 .light { 
   --text-color: black; 
-  --bgg-url: url(./assets/bg-mobile.jpg); 
+  --bg-url: url(./assets/bg-mobile-2.jpg); 
   --stroke-color: rgba(0, 0, 0, 0.5); 
   --surface-color: gba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-    --switch-bg-url: url(./assets/sun.svg);
+  --switch-bg-url: url(./assets/sun.svg);
  }
 
 body {
@@ -57,7 +57,7 @@ body * {
 #switch {
   width: 64px;
   position: relative;
-  margin: 4px auto;
+  margin: 4px auto 16px auto;
 }
 
 #switch button {
@@ -68,15 +68,17 @@ body * {
   border-radius: 50%;
   position: absolute;
   z-index: 1;
-  display: block;
+  
   top: 50%;
-  right: 0;
+  left: 0;
   transform: translateY(-50%);
+
+  animation: slide-back 0.2s;
+  margin-bottom: 4px;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.2s forwards;
 }
 
 #switch span {
@@ -150,4 +152,23 @@ ul li a:hover {
 footer {
   padding: 24px 0;
   text-align: center;
+}
+
+/* animation */
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
